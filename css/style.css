@@ -1,0 +1,478 @@
+header{
+    height:57px;
+    width:100%;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact {
+    color: #5863E3;
+font-size: 17px;
+font-family: Helvetica;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.get{
+    color: #000;
+font-size: 49px;
+font-family: Helvetica;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+
+.contact, .get{
+    margin-left:144px;
+}
+
+
+.container{
+    margin-top:57px;
+    
+}
+
+.container form{
+    display: flex;
+}
+.inputwrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.bigtext{
+    max-width:100%;
+    width:756px;
+    height:298px;
+    padding:30px;
+    border: 2px solid rgba(212, 211, 211, 0.30);
+background: #F8F8F8;
+}
+
+.bigtext::placeholder{
+    color: #99999A;
+font-size: 14px;
+font-family: Helvetica;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+padding:0;
+}
+.textin{
+    height:62px;
+    max-width:100%;
+    width:370px;
+    border: 2px solid rgba(212, 211, 211, 0.30);
+    background: #F8F8F8;
+    margin-left:20px;
+    padding: 10px;
+}
+
+.inputwrapper input::placeholder{
+    color: #99999A;
+font-size: 14px;
+font-family: Helvetica;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
+.send{
+    height:62px;
+    width:370px;
+    border: none;
+    background-color: #5968F4;
+    margin-left:20px;
+    padding: 10px;
+    cursor: pointer;
+
+
+    color: #FBFBFF;
+font-size: 14px;
+font-family: Helvetica;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+
+
+
+
+
+
+.container2{
+    margin-top:70px;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+
+.card1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.imagediv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#5968F4;
+    border-radius:50%;
+    width:68px;
+    height:68px;
+}
+.card1 p{
+    color: #4E4D54;
+font-size: 20px;
+font-family: Helvetica;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.card1 h2{
+    color: #99999A;
+font-size: 15px;
+font-family: Helvetica;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.card2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card2 p{
+    color: #4E4D54;
+font-size: 20px;
+font-family: Helvetica;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
+.card2 h2{
+    color: #99999A;
+font-size: 15px;
+font-family: Helvetica;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+
+.card3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card3 p{
+    color: #4E4D54;
+font-size: 20px;
+font-family: Helvetica;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.card3 h2{
+    color: #99999A;
+    font-size: 15px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.section2{
+    margin-top:74px;
+}
+.photos{
+    color: #5863E3;
+font-size: 17px;
+font-family: Helvetica;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.main2{
+    margin-left:144px;
+    margin-bottom:53px;
+} 
+.main2 h1{
+    color: #000;
+    font-size: 49px;
+    font-family: Helvetica;
+    font-weight: 400;
+    line-height: normal;
+    margin-top:7px;
+}
+
+.ourphotos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+footer{
+    display: flex;
+    margin-top:39px;
+    background-color: black;
+    padding:71px, 71px;
+    width:100%;
+    padding:50px;
+    justify-content: space-around;
+}
+
+.zilva{
+    color: #FFF;
+    font-size: 26px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.ourhotel{
+    color: #99999A;
+    font-size: 17px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top:23px;
+}
+.imglast{
+    vertical-align: middle;
+}
+
+.useful{
+    color: #FFF;
+    font-size: 21px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom:32px;
+}
+
+.ull li{
+    margin-bottom:9px;
+    color: #5863E3;
+    font-size: 17px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.saerto{
+    color: #FFF;
+    font-size: 17px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+    margin-left:14px;
+}
+.two{
+    margin-top:19px;
+}
+.bolo{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+.hotels{
+    margin-bottom:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1171px){
+    .bigtext{
+        width:90%;
+    }
+}
+@media (max-width:739px){
+    .bigtext{
+        width:70%;
+    }
+    .textin{
+        width:90%;
+    }
+    .send{
+        width:90%;
+    }
+}
+@media (max-width:835px){
+
+    footer{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:565px){
+    .container2{
+        display: flex;
+        flex-direction: column;
+    }
+    .container{
+        width:90%;
+    }
+    .main2 h1{
+        font-size:22px;
+    }
+    
+}
+@media (max-width:653px){
+    .name{
+        margin:0;
+        
+    }
+    .namediv{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .main2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin:0;
+    }
+}
+
+
+
+@media (max-width:403px){
+    .hotels{
+        width:90%;
+    }
+    .get{
+        font-size:25px;
+        margin:0 auto;
+    }
+    .namediv{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding:0;
+    }
+}
+@media(max-width:1000px){
+    .get{
+        margin:0;
+
+    }
+    .namediv{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .contact{
+        margin:0;
+    }
+}
+
+@media (max-width:272px){
+    .section2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding:10px;
+    }
+
+}
+@media (max-width:244px){
+    .card1  h2{
+        font-size:12px;
+    }
+    .card2  h2{
+        font-size:12px;
+    }
+    .card3  h2{
+        font-size:12px;
+    }
+}
+
+@media (max-width:440px){
+    .container form{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container form textarea{
+        width:100%;
+        height:140px;
+        margin-bottom:10px;
+    }
+    .inputwrapper{
+        width:100%;
+    }
+    .textin{
+        width:100%;
+        margin:0;
+    }
+    .send{
+        margin:0;
+        width:100%;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .div1, .div2, .div3, .div4{
+        margin-top:29px;
+    }
+}
+@media (max-width:300px){
+    .main2 h1{
+        font-size:18px;
+    }
+}
+
+@media (max-width:260px){
+    .zilva{
+        font-size:20px;
+    }
+}
+
+
+
